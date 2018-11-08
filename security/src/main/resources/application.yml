@@ -1,0 +1,15 @@
+security :
+  oauth2 :
+    client:
+      client-id: dc98b831d395d8947ce1
+      client-secret: 5dd617b5bfff233ac4e5369141ea13524d7ad4d1
+      access-token-uri: https://github.com/login/oauth/access_token
+      user-authorization-uri: https://github.com/login/oauth/authorize
+      authentication-scheme: form
+    resource:
+      user-info-uri: https://api.github.com/user
+      prefer-token-info: false
+
+spring :
+  main :
+    allow-bean-definition-overriding : true
